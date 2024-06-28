@@ -1,0 +1,8 @@
+@media (max-width:768px){
+  .caixa-principal{
+    background-size: contain;
+    background-position: top;
+    
+  }
+}
+
