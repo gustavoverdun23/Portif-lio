@@ -1,8 +1,131 @@
 @media (max-width:768px){
   .caixa-principal{
     background-size: contain;
-    background-position: top;
-    
+    background-position: center;
+    background-repeat: no-repeat;
   }
+
+
+  section img{
+    height: 300px;
+  }
+
+  section div h2{
+    font-size: 50px;
+  }
+
+  section div p{
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  .projetos h2{
+    font-size: 50px;
+  }
+
+  .link-menu {
+    font-size: 15px;
+  }
+
+  .meu-nome{
+    position: absolute;
+    top: 45%;
+  }
+  
+  section div button {
+    height: 35px;
+  }
+
 }
+
+
+@media(max-width: 480px){
+  .portifolio{
+    font-size: 24px;
+  }
+
+  .menu-hamburger {
+    display: flex;
+  }
+  .menu.show {
+  display: flex;
+  }
+
+  .menu{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    background: #191919;
+    border-radius: 10px;
+    width: 200px;
+  }
+   
+  .meu-nome h1{
+    font-size: 25px;
+  }
+
+  .meu-nome h3{
+    font-size: 15px;
+  }
+  
+  section div h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  section{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+  }
+
+  section img{
+    margin-bottom: 30px;
+  }
+
+  .projetos h2{
+    padding-top: 15px;
+    padding-bottom: 25px;
+    font-size: 40px;
+  }
+
+  .card img {
+    height: 50px;
+  }
+
+  .card h5{
+    font-size: 20px;
+  }
+
+  .card-projetos {
+    display: flex;
+    flex-direction: column;
+ 
+  }
+
+  .card{
+    height: auto;
+    width: auto;
+    margin-left: 15px;
+  }
+
+  .card p{
+    font-size: 15px;
+  }
+
+  .card a{
+    font-size: 14px;
+    padding: 10px 10px ;
+  }
+
+  section div button {
+    height: 30px;
+    font-size: 14px;
+  }
+
+}
+
+
 

@@ -10,6 +10,20 @@
     
 
 }
+.menu-hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-hamburger span {
+    height: 4px;
+    width: 25px;
+    background: #ffffff;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
 
 nav{
     display: flex;
@@ -18,6 +32,25 @@ nav{
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 24px;
+}
+
+
+ul li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+
+ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    transition: color 0.5s;
+}
+
+
+ul li a:hover {
+    color: #728cb7fc;
 }
 
 .portifolio{
@@ -97,6 +130,7 @@ section div p {
     color: #ffffff;
     font-size: 20px;
     margin-left: 15px;
+    text-align: justify;
 }
 
 section div button{
@@ -110,6 +144,11 @@ section div button{
     cursor: pointer;
     margin-left: 10px;
     margin-top: 15px;
+}
+
+section div button a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 section div button:hover{
@@ -158,6 +197,7 @@ section div button:hover{
     font-size: 12px;
     margin-top: 20px;
     margin-bottom: 25px;
+    text-align: justify;
 }
 
 .card a{
@@ -179,6 +219,8 @@ section div button:hover{
     display: flex;
     justify-content: center;
 }
+
+
 
 footer{
     background-color: black;
